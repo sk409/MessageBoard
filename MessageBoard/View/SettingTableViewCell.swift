@@ -9,9 +9,9 @@ class SettingTableViewCell: UITableViewCell {
     private var queryParameterName: String?
     private var notification: ((String, String) -> Void)?
     
-    func setData(itemName: String, queryParameterName: String, notification: @escaping (String, String) -> Void) {
+    func setData(itemName: String, contents: String, queryParameterName: String, notification: @escaping (String, String) -> Void) {
         settingItemName.text = itemName
-        settingContents.text = ""
+        settingContents.text = contents
         settingContents.addTarget(self, action: #selector(settingContentsChanged), for: .editingChanged)
         self.queryParameterName = queryParameterName
         self.notification = notification

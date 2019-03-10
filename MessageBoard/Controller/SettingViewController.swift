@@ -21,7 +21,6 @@ class SettingViewController: UIViewController {
         guard let webServerHost = queries["web_server_host"] else {
             return
         }
-        queries.removeValue(forKey: "web_server_host")
         guard let session = DatabaseSession(mediator: "initialize.php", webServerHost: webServerHost) else {
             return
         }
@@ -86,10 +85,11 @@ extension SettingViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let itemNames = ["MySQLユーザ名", "MySQLパスワード", "Webサーバホスト", "データベースサーバホスト", "アプリ管理ユーザ名", "アプリ管理ユーザパスワード", "アプリデータベース名"]
         let queryParameterNames = ["mysql_user_name", "mysql_user_password", "web_server_host", "database_server_host", "app_admin_user_name", "app_admin_user_password", "app_database_name"]
-        let itemName = itemNames[indexPath.row]
         let queryParameterName = queryParameterNames[indexPath.row]
+        let itemName = itemNames[indexPath.row]
+        let contents = queries[queryParameterName] == nil ? "" : queries[queryParameterName]!
         let cell = tableView.dequeueReusableCell(withIdentifier: "SettingTableViewCell", for: indexPath) as! SettingTableViewCell
-        cell.setData(itemName: itemName, queryParameterName: queryParameterName, notification: settingContentsChanged)
+        cell.setData(itemName: itemName, contents: contents, queryParameterName: queryParameterName, notification: settingContentsChanged)
         return cell
     }
     
