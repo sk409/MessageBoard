@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  MessageBoard
-//
-//  Created by 小林聖人 on 2019/02/27.
-//  Copyright © 2019年 小林聖人. All rights reserved.
-//
 
 import UIKit
 
@@ -13,9 +6,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        Application.initialize()
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = RouterViewController()
+        window?.makeKeyAndVisible()
         return true
     }
 

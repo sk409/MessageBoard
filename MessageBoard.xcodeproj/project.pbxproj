@@ -7,21 +7,93 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D71200D12228ACE500F40618 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71200D02228ACE500F40618 /* Application.swift */; };
+		D71200D32228AFE600F40618 /* DatabaseSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71200D22228AFE600F40618 /* DatabaseSession.swift */; };
+		D71200D7222940DD00F40618 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71200D6222940DD00F40618 /* SignupViewController.swift */; };
+		D71200D92229415D00F40618 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71200D82229415D00F40618 /* LoginViewController.swift */; };
+		D71200DB2229579C00F40618 /* ApplicationSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71200DA2229579C00F40618 /* ApplicationSettings.swift */; };
+		D71200DD222A22B700F40618 /* EntranceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71200DC222A22B700F40618 /* EntranceViewController.swift */; };
 		D72B77A522269786005C267F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72B77A422269786005C267F /* AppDelegate.swift */; };
-		D72B77A722269786005C267F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72B77A622269786005C267F /* ViewController.swift */; };
 		D72B77AA22269786005C267F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D72B77A822269786005C267F /* Main.storyboard */; };
 		D72B77AC22269788005C267F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D72B77AB22269788005C267F /* Assets.xcassets */; };
 		D72B77AF22269788005C267F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D72B77AD22269788005C267F /* LaunchScreen.storyboard */; };
+		D7397ACC223494DF0094DAA6 /* RouterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7397ACB223494DF0094DAA6 /* RouterViewController.swift */; };
+		D7397AD42234B2750094DAA6 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7397AD32234B2750094DAA6 /* Utility.swift */; };
+		D74FCE632233D23900D23104 /* FollowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74FCE622233D23900D23104 /* FollowButton.swift */; };
+		D765D25322279AB30028E1FA /* php in Resources */ = {isa = PBXBuildFile; fileRef = D765D25222279AB30028E1FA /* php */; };
+		D7684C24223123150010D6B7 /* ReplyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7684C23223123150010D6B7 /* ReplyViewController.swift */; };
+		D7684C262231CD390010D6B7 /* MessageTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7684C252231CD390010D6B7 /* MessageTableView.swift */; };
+		D7684C2A22322A470010D6B7 /* FindUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7684C2922322A470010D6B7 /* FindUserViewController.swift */; };
+		D7684C2D223241300010D6B7 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7684C2B223241300010D6B7 /* UserTableViewCell.swift */; };
+		D7684C2E223241300010D6B7 /* UserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7684C2C223241300010D6B7 /* UserTableViewCell.xib */; };
+		D7684C30223243410010D6B7 /* UserTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7684C2F223243410010D6B7 /* UserTableView.swift */; };
+		D7684C3622327C0B0010D6B7 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7684C3522327C0B0010D6B7 /* AccountViewController.swift */; };
+		D7A3CC06222FA7310066C0C9 /* MessageDataCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A3CC05222FA7310066C0C9 /* MessageDataCenter.swift */; };
+		D7A3CC08222FA8D70066C0C9 /* MessageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A3CC07222FA8D70066C0C9 /* MessageData.swift */; };
+		D7A3CC0D222FD41E0066C0C9 /* FollowAndFollowerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A3CC0B222FD41E0066C0C9 /* FollowAndFollowerTableViewCell.swift */; };
+		D7A3CC0E222FD41E0066C0C9 /* FollowAndFollowerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7A3CC0C222FD41E0066C0C9 /* FollowAndFollowerTableViewCell.xib */; };
+		D7A3CC12223091D30066C0C9 /* URLQueryObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A3CC11223091D30066C0C9 /* URLQueryObject.swift */; };
+		D7A3CC142230E7080066C0C9 /* PostedMessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A3CC132230E7080066C0C9 /* PostedMessagesViewController.swift */; };
+		D7B370302234E71500986FB4 /* RelationshipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B3702F2234E71500986FB4 /* RelationshipViewController.swift */; };
+		D7B751A0222B7E9700932B77 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B7519F222B7E9700932B77 /* HTTPMethod.swift */; };
+		D7B751A4222BAF8F00932B77 /* FunctionObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B751A3222BAF8F00932B77 /* FunctionObserver.swift */; };
+		D7B751A6222BB17600932B77 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B751A5222BB17600932B77 /* UserManager.swift */; };
+		D7B751A8222BCA8B00932B77 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B751A7222BCA8B00932B77 /* HomeViewController.swift */; };
+		D7B751AA222BD9E900932B77 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B751A9222BD9E900932B77 /* PostViewController.swift */; };
+		D7BF61D5222A23BB00514D62 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BF61D4222A23BB00514D62 /* SettingViewController.swift */; };
+		D7D0C6D3222CFEC10078DD79 /* MessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D0C6D1222CFEC10078DD79 /* MessageTableViewCell.swift */; };
+		D7D0C6D4222CFEC10078DD79 /* MessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7D0C6D2222CFEC10078DD79 /* MessageTableViewCell.xib */; };
+		D7DFC9EE222CAEA10000BA35 /* MessageIndexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DFC9ED222CAEA10000BA35 /* MessageIndexer.swift */; };
+		D7F41799223502B2007211A9 /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F41797223502B2007211A9 /* SettingTableViewCell.swift */; };
+		D7F4179A223502B2007211A9 /* SettingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7F41798223502B2007211A9 /* SettingTableViewCell.xib */; };
+		D7F4742922336D03001582D4 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F4742822336D03001582D4 /* UserViewController.swift */; };
+		D7F4742B2233B273001582D4 /* UIColor+CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F4742A2233B273001582D4 /* UIColor+CustomColors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D71200D02228ACE500F40618 /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
+		D71200D22228AFE600F40618 /* DatabaseSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseSession.swift; sourceTree = "<group>"; };
+		D71200D6222940DD00F40618 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		D71200D82229415D00F40618 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D71200DA2229579C00F40618 /* ApplicationSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationSettings.swift; sourceTree = "<group>"; };
+		D71200DC222A22B700F40618 /* EntranceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntranceViewController.swift; sourceTree = "<group>"; };
 		D72B77A122269786005C267F /* MessageBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessageBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D72B77A422269786005C267F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D72B77A622269786005C267F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D72B77A922269786005C267F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D72B77AB22269788005C267F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D72B77AE22269788005C267F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D72B77B022269788005C267F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7397ACB223494DF0094DAA6 /* RouterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterViewController.swift; sourceTree = "<group>"; };
+		D7397AD32234B2750094DAA6 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		D74FCE622233D23900D23104 /* FollowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowButton.swift; sourceTree = "<group>"; };
+		D765D25222279AB30028E1FA /* php */ = {isa = PBXFileReference; lastKnownFileType = folder; path = php; sourceTree = "<group>"; };
+		D7684C23223123150010D6B7 /* ReplyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplyViewController.swift; sourceTree = "<group>"; };
+		D7684C252231CD390010D6B7 /* MessageTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableView.swift; sourceTree = "<group>"; };
+		D7684C2922322A470010D6B7 /* FindUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindUserViewController.swift; sourceTree = "<group>"; };
+		D7684C2B223241300010D6B7 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		D7684C2C223241300010D6B7 /* UserTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserTableViewCell.xib; sourceTree = "<group>"; };
+		D7684C2F223243410010D6B7 /* UserTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableView.swift; sourceTree = "<group>"; };
+		D7684C3522327C0B0010D6B7 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		D7A3CC05222FA7310066C0C9 /* MessageDataCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageDataCenter.swift; sourceTree = "<group>"; };
+		D7A3CC07222FA8D70066C0C9 /* MessageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageData.swift; sourceTree = "<group>"; };
+		D7A3CC0B222FD41E0066C0C9 /* FollowAndFollowerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowAndFollowerTableViewCell.swift; sourceTree = "<group>"; };
+		D7A3CC0C222FD41E0066C0C9 /* FollowAndFollowerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FollowAndFollowerTableViewCell.xib; sourceTree = "<group>"; };
+		D7A3CC11223091D30066C0C9 /* URLQueryObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLQueryObject.swift; sourceTree = "<group>"; };
+		D7A3CC132230E7080066C0C9 /* PostedMessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostedMessagesViewController.swift; sourceTree = "<group>"; };
+		D7B3702F2234E71500986FB4 /* RelationshipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelationshipViewController.swift; sourceTree = "<group>"; };
+		D7B7519F222B7E9700932B77 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		D7B751A3222BAF8F00932B77 /* FunctionObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionObserver.swift; sourceTree = "<group>"; };
+		D7B751A5222BB17600932B77 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		D7B751A7222BCA8B00932B77 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D7B751A9222BD9E900932B77 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		D7BF61D4222A23BB00514D62 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		D7D0C6D1222CFEC10078DD79 /* MessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableViewCell.swift; sourceTree = "<group>"; };
+		D7D0C6D2222CFEC10078DD79 /* MessageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageTableViewCell.xib; sourceTree = "<group>"; };
+		D7DFC9ED222CAEA10000BA35 /* MessageIndexer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageIndexer.swift; sourceTree = "<group>"; };
+		D7F41797223502B2007211A9 /* SettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
+		D7F41798223502B2007211A9 /* SettingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingTableViewCell.xib; sourceTree = "<group>"; };
+		D7F4742822336D03001582D4 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		D7F4742A2233B273001582D4 /* UIColor+CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+CustomColors.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +126,66 @@
 		D72B77A322269786005C267F /* MessageBoard */ = {
 			isa = PBXGroup;
 			children = (
+				D7397ACE2234A94A0094DAA6 /* Controller */,
+				D7397ACD2234A9450094DAA6 /* View */,
+				D7A3CC11223091D30066C0C9 /* URLQueryObject.swift */,
+				D7A3CC05222FA7310066C0C9 /* MessageDataCenter.swift */,
+				D7DFC9ED222CAEA10000BA35 /* MessageIndexer.swift */,
+				D7B751A5222BB17600932B77 /* UserManager.swift */,
+				D7B751A3222BAF8F00932B77 /* FunctionObserver.swift */,
+				D71200D02228ACE500F40618 /* Application.swift */,
 				D72B77A422269786005C267F /* AppDelegate.swift */,
-				D72B77A622269786005C267F /* ViewController.swift */,
+				D7A3CC07222FA8D70066C0C9 /* MessageData.swift */,
 				D72B77A822269786005C267F /* Main.storyboard */,
+				D71200D22228AFE600F40618 /* DatabaseSession.swift */,
+				D7397AD32234B2750094DAA6 /* Utility.swift */,
+				D7B7519F222B7E9700932B77 /* HTTPMethod.swift */,
+				D71200DA2229579C00F40618 /* ApplicationSettings.swift */,
 				D72B77AB22269788005C267F /* Assets.xcassets */,
 				D72B77AD22269788005C267F /* LaunchScreen.storyboard */,
 				D72B77B022269788005C267F /* Info.plist */,
+				D765D25222279AB30028E1FA /* php */,
 			);
 			path = MessageBoard;
+			sourceTree = "<group>";
+		};
+		D7397ACD2234A9450094DAA6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D7F41797223502B2007211A9 /* SettingTableViewCell.swift */,
+				D7F41798223502B2007211A9 /* SettingTableViewCell.xib */,
+				D74FCE622233D23900D23104 /* FollowButton.swift */,
+				D7D0C6D1222CFEC10078DD79 /* MessageTableViewCell.swift */,
+				D7D0C6D2222CFEC10078DD79 /* MessageTableViewCell.xib */,
+				D7684C2B223241300010D6B7 /* UserTableViewCell.swift */,
+				D7684C2C223241300010D6B7 /* UserTableViewCell.xib */,
+				D7684C2F223243410010D6B7 /* UserTableView.swift */,
+				D7A3CC0B222FD41E0066C0C9 /* FollowAndFollowerTableViewCell.swift */,
+				D7A3CC0C222FD41E0066C0C9 /* FollowAndFollowerTableViewCell.xib */,
+				D7F4742A2233B273001582D4 /* UIColor+CustomColors.swift */,
+				D7684C252231CD390010D6B7 /* MessageTableView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D7397ACE2234A94A0094DAA6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D7397ACB223494DF0094DAA6 /* RouterViewController.swift */,
+				D7B3702F2234E71500986FB4 /* RelationshipViewController.swift */,
+				D7684C2922322A470010D6B7 /* FindUserViewController.swift */,
+				D7B751A9222BD9E900932B77 /* PostViewController.swift */,
+				D71200D82229415D00F40618 /* LoginViewController.swift */,
+				D71200D6222940DD00F40618 /* SignupViewController.swift */,
+				D7F4742822336D03001582D4 /* UserViewController.swift */,
+				D7684C23223123150010D6B7 /* ReplyViewController.swift */,
+				D7A3CC132230E7080066C0C9 /* PostedMessagesViewController.swift */,
+				D7B751A7222BCA8B00932B77 /* HomeViewController.swift */,
+				D7684C3522327C0B0010D6B7 /* AccountViewController.swift */,
+				D7BF61D4222A23BB00514D62 /* SettingViewController.swift */,
+				D71200DC222A22B700F40618 /* EntranceViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +246,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7D0C6D4222CFEC10078DD79 /* MessageTableViewCell.xib in Resources */,
 				D72B77AF22269788005C267F /* LaunchScreen.storyboard in Resources */,
+				D7F4179A223502B2007211A9 /* SettingTableViewCell.xib in Resources */,
 				D72B77AC22269788005C267F /* Assets.xcassets in Resources */,
+				D7684C2E223241300010D6B7 /* UserTableViewCell.xib in Resources */,
 				D72B77AA22269786005C267F /* Main.storyboard in Resources */,
+				D7A3CC0E222FD41E0066C0C9 /* FollowAndFollowerTableViewCell.xib in Resources */,
+				D765D25322279AB30028E1FA /* php in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +264,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D72B77A722269786005C267F /* ViewController.swift in Sources */,
+				D7F41799223502B2007211A9 /* SettingTableViewCell.swift in Sources */,
+				D7684C2A22322A470010D6B7 /* FindUserViewController.swift in Sources */,
+				D7684C2D223241300010D6B7 /* UserTableViewCell.swift in Sources */,
+				D71200D7222940DD00F40618 /* SignupViewController.swift in Sources */,
+				D7684C24223123150010D6B7 /* ReplyViewController.swift in Sources */,
+				D7A3CC0D222FD41E0066C0C9 /* FollowAndFollowerTableViewCell.swift in Sources */,
+				D7A3CC142230E7080066C0C9 /* PostedMessagesViewController.swift in Sources */,
+				D7BF61D5222A23BB00514D62 /* SettingViewController.swift in Sources */,
+				D7A3CC06222FA7310066C0C9 /* MessageDataCenter.swift in Sources */,
+				D7B751A8222BCA8B00932B77 /* HomeViewController.swift in Sources */,
+				D7A3CC08222FA8D70066C0C9 /* MessageData.swift in Sources */,
+				D7DFC9EE222CAEA10000BA35 /* MessageIndexer.swift in Sources */,
+				D71200D32228AFE600F40618 /* DatabaseSession.swift in Sources */,
+				D7B751A6222BB17600932B77 /* UserManager.swift in Sources */,
+				D7397AD42234B2750094DAA6 /* Utility.swift in Sources */,
+				D7397ACC223494DF0094DAA6 /* RouterViewController.swift in Sources */,
+				D71200DD222A22B700F40618 /* EntranceViewController.swift in Sources */,
+				D7F4742922336D03001582D4 /* UserViewController.swift in Sources */,
+				D71200D92229415D00F40618 /* LoginViewController.swift in Sources */,
 				D72B77A522269786005C267F /* AppDelegate.swift in Sources */,
+				D7B751AA222BD9E900932B77 /* PostViewController.swift in Sources */,
+				D7684C3622327C0B0010D6B7 /* AccountViewController.swift in Sources */,
+				D7B751A4222BAF8F00932B77 /* FunctionObserver.swift in Sources */,
+				D7A3CC12223091D30066C0C9 /* URLQueryObject.swift in Sources */,
+				D7B751A0222B7E9700932B77 /* HTTPMethod.swift in Sources */,
+				D7F4742B2233B273001582D4 /* UIColor+CustomColors.swift in Sources */,
+				D71200DB2229579C00F40618 /* ApplicationSettings.swift in Sources */,
+				D7684C30223243410010D6B7 /* UserTableView.swift in Sources */,
+				D74FCE632233D23900D23104 /* FollowButton.swift in Sources */,
+				D7684C262231CD390010D6B7 /* MessageTableView.swift in Sources */,
+				D71200D12228ACE500F40618 /* Application.swift in Sources */,
+				D7D0C6D3222CFEC10078DD79 /* MessageTableViewCell.swift in Sources */,
+				D7B370302234E71500986FB4 /* RelationshipViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
